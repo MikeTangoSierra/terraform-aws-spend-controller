@@ -1,0 +1,15 @@
+variable "budget_name" {}
+variable "budget_limit_amount" {}
+variable "budget_currency_unit" {}
+variable "budget_time_unit" {}
+variable "budget_notification_sns_topic_arns" {}
+variable "budget_notification_comparison_operator" {}
+variable "budget_notification_threshold" {}
+variable "budget_notification_threshold_type" {}
+variable "budget_notification_type" {}
+variable "budget_lambda_trigger_comparison_operator" {}
+variable "budget_lambda_trigger_threshold" {}
+variable "budget_lambda_trigger_threshold_type" {}
+variable "budget_lambda_trigger_notification_type" {}
+variable "budget_lambda_trigger_sns_topic_arns" {}
+variable "do_enable_automatic_resource_destroy" {}
